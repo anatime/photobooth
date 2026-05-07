@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Photobooth Anaaaaaa</title>
+  <!-- Hubungkan ke CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>📸 Photobooth Anaaaaaa</h1>
+
+  <!-- Tampilan kamera -->
+  <video id="video" autoplay></video>
+
+  <!-- Tombol ambil foto -->
+  <button id="snap">Ambil Foto</button>
+
+  <!-- Tombol download hasil foto -->
+  <a id="download" download="foto-anaaaaaa.png">Download Foto</a>
+  <!-- Tombol filter -->
+<button id="bw">Hitam Putih</button>
+<button id="sepia">Sepia</button>
+<button id="normal">Normal</button>
+ <button id="toggleMirror">Toggle Mirror</button>
+ 
+
+
+  <!-- Tempat menampilkan hasil foto -->
+  <canvas id="canvas" width="400" height="300"></canvas>
+
+  <!-- Hubungkan ke JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
